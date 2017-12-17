@@ -1,5 +1,6 @@
 /*Extiende hojas de estilo de Bootsrap*/
- 
+/* Well */
+  .well-claro {background-color: #f0f0f0;}
   .well-oscuro {
     background-color: #17233d;
   }
