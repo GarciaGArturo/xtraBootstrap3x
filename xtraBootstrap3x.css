@@ -1,0 +1,491 @@
+
+/*Extiende hojas de estilo de Bootsrap*/
+/* Well */
+  .well-claro {background-color: #f0f0f0;}
+  .well-oscuro {
+    background-color: #17233d;
+  }
+  .well-oscuro h1,
+  .well-oscuro h2, 
+  .well-oscuro h3, 
+  .well-oscuro h4, 
+  .well-oscuro h5, 
+  .well-oscuro h6, 
+  .well-oscuro p {
+    color: white;
+  }
+  .well-oscuro .text-primary {color: #fff;}
+  .well-oscuro .text-success {color: yellowgreen;}
+  .well-oscuro .text-info {color: #2f98b7;}
+  .well-oscuro .text-warning {color: orange;}
+  .well-oscuro .text-danger {color: red;}
+  .well-oscuro .text-muted {color: gray;}
+  .well-shadow-01 {box-shadow: 0 -3px 12px rgba(0,0,0,0.15);}
+
+  blockquote.blk-azul-metalico {
+    border-left-width: 6px;
+    color: steelblue;
+    padding: 10.5px 21px;
+    margin: 0 0 21px;
+    font-size: 18.75px;
+    border-left: 5px solid steelblue;
+    background-color: #eeeeee;
+    }
+
+/* override de bootrap */
+.modal-backdrop { background-color: #000; }
+
+/*Flex*/
+  .d-flex                   { display: flex; }
+  .flex-row                 { flex-direction: row; }
+  .flex-row-reverse         { flex-direction: row-reverse; }
+  .flex-column              { flex-direction: column; }
+  .flex-column-reverse      { flex-direction: column-reverse; }
+
+  .flex-wrap-nowrap         { flex-wrap: nowrap; }
+  .flex-wrap                { flex-wrap: wrap; }
+  .flex-wrap-reverse        { flex-wrap: wrap-reverse; }
+
+  .justify-content-start    { justify-content: flex-start; }
+  .justify-content-end      { justify-content: flex-end; }
+  .justify-content-center   { justify-content: center; }
+  .justify-content-between  { justify-content: space-between; }
+  .justify-content-around   { justify-content: space-around; }
+
+  .align-item-stretch       { align-items: stretch; }
+  .align-items-start        { align-items: flex-start; }
+  .align-items-end          { align-items: flex-end; }
+  .align-items-center       { align-items: center; }
+  .align-items-baseline     { align-items: baseline; }
+
+  .align-conten-stretch     { align-content: stretch; }
+  .align-content-start      { align-content: flex-start; }
+  .align-content-end        { align-content: flex-end; }
+  .align-content-center     { align-content: center; }
+  .align-content-between    { align-content: space-between; }
+  .align-content-around     { align-content: space-around; }
+
+/*borders*/
+  .border           { border: 1px solid #dee2e6 !important; }
+  .border-top       { border-top: 1px solid #dee2e6 !important; }
+  .border-right     { border-right: 1px solid #dee2e6 !important; }
+  .border-bottom    { border-bottom: 1px solid #dee2e6 !important; }
+  .border-left      { border-left: 1px solid #dee2e6 !important; }
+  .border-0         { border: 0 !important; }
+  .border-top-0     { border-top: 0 !important; }
+  .border-right-0   { border-right: 0 !important; }
+  .border-bottom-0  { border-bottom: 0 !important; }
+  .border-left-0    { border-left: 0 !important; }
+  .border-primary   { border-color: #007bff !important; }
+  .border-secondary { border-color: #6c757d !important; }
+  .border-success   { border-color: #28a745 !important; }
+  .border-info      { border-color: #17a2b8 !important; }
+  .border-warning   { border-color: #ffc107 !important; }
+  .border-danger    { border-color: #dc3545 !important; }
+  .border-light     { border-color: #f8f9fa !important; }
+  .border-dark      { border-color: #343a40 !important; }
+  .border-white     { border-color: #fff !important; }
+  .rounded          { border-radius: 0.25rem !important; }
+  .rounded-circle   { border-radius: 50% !important; }
+  .rounded-0        { border-radius: 0 !important; }
+  .rounded-top { 
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+  }
+  .rounded-right { 
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+  }
+  .rounded-bottom { 
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+  }
+  .rounded-left { 
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+  }
+  
+/*Márgenes*/
+  .ml-auto { margin-left: auto ! important; }
+  .mr-auto { margin-right: auto ! important; }
+  .mx-auto { margin-left: auto ! important; margin-right: auto ! important; }
+
+  .ml-1 { margin-left: 0.25em ! important; }
+  .ml-2 { margin-left: 0.5em ! important; }
+  .ml-3 { margin-left: 0.75em ! important; }
+  .ml-4 { margin-left: 1em ! important; }
+  .ml-5 { margin-left: 1.25em ! important; }
+  .ml-6 { margin-left: 1.5em ! important; }
+  .ml-7 { margin-left: 1.75em ! important; }
+  .ml-8 { margin-left: 2em ! important; }
+  .ml-9 { margin-left: 2.25em ! important; }
+
+  .mr-1 { margin-right: 0.25em ! important; }
+  .mr-2 { margin-right: 0.5em ! important; }
+  .mr-3 { margin-right: 0.75em ! important; }
+  .mr-4 { margin-right: 1em ! important; }
+  .mr-5 { margin-right: 1.25em ! important; }
+  .mr-6 { margin-right: 1.5em ! important; }
+  .mr-7 { margin-right: 1.75em ! important; }
+  .mr-8 { margin-right: 2em ! important; }
+  .mr-9 { margin-right: 2.25em ! important; }
+
+  .mt-1 { margin-top: 0.25em ! important; }
+  .mt-2 { margin-top: 0.5em ! important; }
+  .mt-3 { margin-top: 0.75em ! important; }
+  .mt-4 { margin-top: 1em ! important; }
+  .mt-5 { margin-top: 1.25em ! important; }
+  .mt-6 { margin-top: 1.5em ! important; }
+  .mt-7 { margin-top: 1.75em ! important; }
+  .mt-8 { margin-top: 2em ! important; }
+  .mt-9 { margin-top: 2.25em ! important; }
+
+  .mb-1 { margin-bottom: 0.25em ! important; }
+  .mb-2 { margin-bottom: 0.5em ! important; }
+  .mb-3 { margin-bottom: 0.75em ! important; }
+  .mb-4 { margin-bottom: 1em ! important; }
+  .mb-5 { margin-bottom: 1.25em ! important; }
+  .mb-6 { margin-bottom: 1.5em ! important; }
+  .mb-7 { margin-bottom: 1.75em ! important; }
+  .mb-8 { margin-bottom: 2em ! important; }
+  .mb-9 { margin-bottom: 2.25em ! important; }
+
+  .mx-1 { margin-left: 0.25em ! important; margin-right: 0.25em ! important; }
+  .mx-2 { margin-left: 0.5em ! important; margin-right: 0.5em ! important; }
+  .mx-3 { margin-left: 0.75em ! important; margin-right: 0.75em ! important; }
+  .mx-4 { margin-left: 1em ! important; margin-right: 1em ! important; }
+  .mx-5 { margin-left: 1.25em ! important; margin-right: 1.25em ! important; }
+  .mx-6 { margin-left: 1.5em ! important; margin-right: 1.5em ! important; }
+  .mx-7 { margin-left: 1.75em ! important; margin-right: 1.75em ! important; }
+  .mx-8 { margin-left: 2em ! important; margin-right: 2em ! important; }
+  .mx-9 { margin-left: 2.25em ! important; margin-right: 2.25em ! important; }
+  
+  .my-1 { margin-top: 0.25em ! important; margin-bottom: 0.25em ! important; }
+  .my-2 { margin-top: 0.5em ! important; margin-bottom: 0.5em ! important; }
+  .my-3 { margin-top: 0.75em ! important; margin-bottom: 0.75em ! important; }
+  .my-4 { margin-top: 1em ! important; bottom-top: 1em ! important; }
+  .my-5 { margin-top: 1.25em ! important; margin-bottom: 1.25em ! important; }
+  .my-6 { margin-top: 1.5em ! important; margin-bottom: 1.5em ! important; }
+  .my-7 { margin-top: 1.75em ! important; margin-bottom: 1.75em ! important; }
+  .my-8 { margin-top: 2em ! important; bottom-top: 2em ! important; }
+  .my-9 { margin-top: 2.25em ! important; margin-bottom: 2.25em ! important; }
+
+/*Paddings*/
+  .pl-0 { padding-left: 0em ! important; }
+  .pl-1 { padding-left: 0.25em ! important; }
+  .pl-2 { padding-left: 0.5em ! important; }
+  .pl-3 { padding-left: 0.75em ! important; }
+  .pl-4 { padding-left: 1em ! important; }
+  .pl-5 { padding-left: 1.25em ! important; }
+  .pl-6 { padding-left: 1.5em ! important; }
+  .pl-7 { padding-left: 1.75em ! important; }
+  .pl-8 { padding-left: 2em ! important; }
+  .pl-9 { padding-left: 2.25em ! important; }
+
+  .pr-0 { padding-right: 0em ! important; }
+  .pr-1 { padding-right: 0.25em ! important; }
+  .pr-2 { padding-right: 0.5em ! important; }
+  .pr-3 { padding-right: 0.75em ! important; }
+  .pr-4 { padding-right: 1em ! important; }
+  .pr-5 { padding-right: 1.25em ! important; }
+  .pr-6 { padding-right: 1.5em ! important; }
+  .pr-7 { padding-right: 1.75em ! important; }
+  .pr-8 { padding-right: 2em ! important; }
+  .pr-9 { padding-right: 2.25em ! important; }
+
+  .pt-0 { padding-top: 0em ! important; }
+  .pt-1 { padding-top: 0.25em ! important; }
+  .pt-2 { padding-top: 0.5em ! important; }
+  .pt-3 { padding-top: 0.75em ! important; }
+  .pt-4 { padding-top: 1em ! important; }
+  .pt-5 { padding-top: 1.25em ! important; }
+  .pt-6 { padding-top: 1.5em ! important; }
+  .pt-7 { padding-top: 1.75em ! important; }
+  .pt-8 { padding-top: 2em ! important; }
+  .pt-9 { padding-top: 2.25em ! important; }
+
+  .pb-0 { padding-bottom: 0em ! important; }
+  .pb-1 { padding-bottom: 0.25em ! important; }
+  .pb-2 { padding-bottom: 0.5em ! important; }
+  .pb-3 { padding-bottom: 0.75em ! important; }
+  .pb-4 { padding-bottom: 1em ! important; }
+  .pb-5 { padding-bottom: 1.25em ! important; }
+  .pb-6 { padding-bottom: 1.5em ! important; }
+  .pb-7 { padding-bottom: 1.75em ! important; }
+  .pb-8 { padding-bottom: 2em ! important; }
+  .pb-9 { padding-bottom: 2.25em ! important; }
+
+  .px-0 { padding-left: 0em ! important; padding-right: 0em ! important; }
+  .px-1 { padding-left: 0.25em ! important; padding-right: 0.25em ! important; }
+  .px-2 { padding-left: 0.5em ! important; padding-right: 0.5em ! important; }
+  .px-3 { padding-left: 0.75em ! important; padding-right: 0.75em ! important; }
+  .px-4 { padding-left: 1em ! important; margin-right: 1em ! important; }
+  .px-5 { padding-left: 1.25em ! important; padding-right: 1.25em ! important; }
+  .px-6 { padding-left: 1.5em ! important; padding-right: 1.5em ! important; }
+  .px-7 { padding-left: 1.75em ! important; padding-right: 1.75em ! important; }
+  .px-8 { padding-left: 1em ! important; margin-right: 2em ! important; }
+  .px-9 { padding-left: 2.25em ! important; padding-right: 2.25em ! important; }
+
+  .py-0 { padding-top: 0em ! important; padding-bottom: 0em ! important; }
+  .py-1 { padding-top: 0.25em ! important; padding-bottom: 0.25em ! important; }
+  .py-2 { padding-top: 0.5em ! important; padding-bottom: 0.5em ! important; }
+  .py-3 { padding-top: 0.75em ! important; padding-bottom: 0.75em ! important; }
+  .py-4 { padding-top: 1em ! important; bottom-top: 1em ! important; }
+  .py-5 { padding-top: 1.25em ! important; padding-bottom: 1.25em ! important; }
+  .py-6 { padding-top: 1.5em ! important; padding-bottom: 1.5em ! important; }
+  .py-7 { padding-top: 1.75em ! important; padding-bottom: 1.75em ! important; }
+  .py-8 { padding-top: 1em ! important; bottom-top: 2em ! important; }
+  .py-9 { padding-top: 2.25em ! important; padding-bottom: 2.25em ! important; }
+
+/*width*/
+  .w-1 { width: 1rem ! important; }
+  .w-2 { width: 2rem ! important; }
+  .w-3 { width: 3rem ! important; }
+  .w-4 { width: 4rem ! important; }
+  .w-5 { width: 5rem ! important; }
+  .w-6 { width: 6rem ! important; }
+  .w-7 { width: 7rem ! important; }
+  .w-8 { width: 8rem ! important; }
+  .w-9 { width: 9rem ! important; }
+  .w-10 { width: 10rem ! important; }
+  .w-11 { width: 11rem ! important; }
+  .w-12 { width: 12rem ! important; }
+  .w-13 { width: 13rem ! important; }
+  .w-14 { width: 14rem ! important; }
+  .w-15 { width: 15rem ! important; }
+  .w-16 { width: 16rem ! important; }
+  .w-17 { width: 17rem ! important; }
+  .w-18 { width: 18rem ! important; }
+  .w-19 { width: 19rem ! important; }
+  .w-20 { width: 20rem ! important; }
+  .w-21 { width: 21rem ! important; }
+  .w-22 { width: 22rem ! important; }
+  .w-23 { width: 23rem ! important; }
+  .w-24 { width: 24rem ! important; }
+  .w-25 { width: 25rem ! important; }
+  .w-26 { width: 26rem ! important; }
+  .w-27 { width: 27rem ! important; }
+  .w-28 { width: 28rem ! important; }
+  .w-29 { width: 29rem ! important; }
+  .w-30 { width: 30rem ! important; }
+  .w-31 { width: 31rem ! important; }
+  .w-32 { width: 32rem ! important; }
+  .w-33 { width: 33rem ! important; }
+  .w-34 { width: 34rem ! important; }
+  .w-35 { width: 35rem ! important; }
+  .w-36 { width: 36rem ! important; }
+  .w-37 { width: 37rem ! important; }
+  .w-38 { width: 38rem ! important; }
+  .w-39 { width: 39rem ! important; }
+  .w-40 { width: 40rem ! important; }
+  .w-41 { width: 41rem ! important; }
+  .w-42 { width: 42rem ! important; }
+  .w-43 { width: 43rem ! important; }
+  .w-44 { width: 44rem ! important; }
+  .w-45 { width: 45rem ! important; }
+  .w-46 { width: 46rem ! important; }
+  .w-47 { width: 47rem ! important; }
+  .w-48 { width: 48rem ! important; }
+  .w-49 { width: 49rem ! important; }
+  .w-50 { width: 50rem ! important; }
+  .w-51 { width: 51rem ! important; }
+  .w-52 { width: 52rem ! important; }
+  .w-53 { width: 53rem ! important; }
+  .w-54 { width: 54rem ! important; }
+  .w-55 { width: 55rem ! important; }
+  .w-56 { width: 56rem ! important; }
+  .w-57 { width: 57rem ! important; }
+  .w-58 { width: 58rem ! important; }
+  .w-59 { width: 59rem ! important; }
+
+  .mw-1 { max-width: 1rem ! important; }
+  .mw-2 { max-width: 2rem ! important; }
+  .mw-3 { max-width: 3rem ! important; }
+  .mw-4 { max-width: 4rem ! important; }
+  .mw-5 { max-width: 5rem ! important; }
+  .mw-6 { max-width: 6rem ! important; }
+  .mw-7 { max-width: 7rem ! important; }
+  .mw-8 { max-width: 8rem ! important; }
+  .mw-9 { max-width: 9rem ! important; }
+  .mw-10 { max-width: 10rem ! important; }
+  .mw-11 { max-width: 11rem ! important; }
+  .mw-12 { max-width: 12rem ! important; }
+  .mw-13 { max-width: 13rem ! important; }
+  .mw-14 { max-width: 14rem ! important; }
+  .mw-15 { max-width: 15rem ! important; }
+  .mw-16 { max-width: 16rem ! important; }
+  .mw-17 { max-width: 17rem ! important; }
+  .mw-18 { max-width: 18rem ! important; }
+  .mw-19 { max-width: 19rem ! important; }
+  .mw-20 { max-width: 20rem ! important; }
+  .mw-21 { max-width: 21rem ! important; }
+  .mw-22 { max-width: 22rem ! important; }
+  .mw-23 { max-width: 23rem ! important; }
+  .mw-24 { max-width: 24rem ! important; }
+  .mw-25 { max-width: 25rem ! important; }
+  .mw-26 { max-width: 26rem ! important; }
+  .mw-27 { max-width: 27rem ! important; }
+  .mw-28 { max-width: 28rem ! important; }
+  .mw-29 { max-width: 29rem ! important; }
+  .mw-30 { max-width: 30rem ! important; }
+  .mw-31 { max-width: 31rem ! important; }
+  .mw-32 { max-width: 32rem ! important; }
+  .mw-33 { max-width: 33rem ! important; }
+  .mw-34 { max-width: 34rem ! important; }
+  .mw-35 { max-width: 35rem ! important; }
+  .mw-36 { max-width: 36rem ! important; }
+  .mw-37 { max-width: 37rem ! important; }
+  .mw-38 { max-width: 38rem ! important; }
+  .mw-39 { max-width: 39rem ! important; }
+  .mw-40 { max-width: 40rem ! important; }
+  .mw-41 { max-width: 41rem ! important; }
+  .mw-42 { max-width: 42rem ! important; }
+  .mw-43 { max-width: 43rem ! important; }
+  .mw-44 { max-width: 44rem ! important; }
+  .mw-45 { max-width: 45rem ! important; }
+  .mw-46 { max-width: 46rem ! important; }
+  .mw-47 { max-width: 47rem ! important; }
+  .mw-48 { max-width: 48rem ! important; }
+  .mw-49 { max-width: 49rem ! important; }
+  .mw-50 { max-width: 50rem ! important; }
+  .mw-51 { max-width: 51rem ! important; }
+  .mw-52 { max-width: 52rem ! important; }
+  .mw-53 { max-width: 53rem ! important; }
+  .mw-54 { max-width: 54rem ! important; }
+  .mw-55 { max-width: 55rem ! important; }
+  .mw-56 { max-width: 56rem ! important; }
+  .mw-57 { max-width: 57rem ! important; }
+  .mw-58 { max-width: 58rem ! important; }
+  .mw-59 { max-width: 59rem ! important; }
+
+/*height*/
+  .h-1 { height: 1rem ! important; }
+  .h-2 { height: 2rem ! important; }
+  .h-3 { height: 3rem ! important; }
+  .h-4 { height: 4rem ! important; }
+  .h-5 { height: 5rem ! important; }
+  .h-6 { height: 6rem ! important; }
+  .h-7 { height: 7rem ! important; }
+  .h-8 { height: 8rem ! important; }
+  .h-9 { height: 9rem ! important; }
+  .h-10 { height: 10rem ! important; }
+  .h-11 { height: 11rem ! important; }
+  .h-12 { height: 12rem ! important; }
+  .h-13 { height: 13rem ! important; }
+  .h-14 { height: 14rem ! important; }
+  .h-15 { height: 15rem ! important; }
+  .h-16 { height: 16rem ! important; }
+  .h-17 { height: 17rem ! important; }
+  .h-18 { height: 18rem ! important; }
+  .h-19 { height: 19rem ! important; }
+  .h-20 { height: 20rem ! important; }
+  .h-21 { height: 21rem ! important; }
+  .h-22 { height: 22rem ! important; }
+  .h-23 { height: 23rem ! important; }
+  .h-24 { height: 24rem ! important; }
+  .h-25 { height: 25rem ! important; }
+  .h-26 { height: 26rem ! important; }
+  .h-27 { height: 27rem ! important; }
+  .h-28 { height: 28rem ! important; }
+  .h-29 { height: 29rem ! important; }
+  .h-30 { height: 30rem ! important; }
+  .h-31 { height: 31rem ! important; }
+  .h-32 { height: 32rem ! important; }
+  .h-33 { height: 33rem ! important; }
+  .h-34 { height: 34rem ! important; }
+  .h-35 { height: 35rem ! important; }
+  .h-36 { height: 36rem ! important; }
+  .h-37 { height: 37rem ! important; }
+  .h-38 { height: 38rem ! important; }
+  .h-39 { height: 39rem ! important; }
+  .h-40 { height: 40rem ! important; }
+  .h-41 { height: 41rem ! important; }
+  .h-42 { height: 42rem ! important; }
+  .h-43 { height: 43rem ! important; }
+  .h-44 { height: 44rem ! important; }
+  .h-45 { height: 45rem ! important; }
+  .h-46 { height: 46rem ! important; }
+  .h-47 { height: 47rem ! important; }
+  .h-48 { height: 48rem ! important; }
+  .h-49 { height: 49rem ! important; }
+  .h-50 { height: 50rem ! important; }
+  .h-51 { height: 51rem ! important; }
+  .h-52 { height: 52rem ! important; }
+  .h-53 { height: 53rem ! important; }
+  .h-54 { height: 54rem ! important; }
+  .h-55 { height: 55rem ! important; }
+  .h-56 { height: 56rem ! important; }
+  .h-57 { height: 57rem ! important; }
+  .h-58 { height: 58rem ! important; }
+  .h-59 { height: 59rem ! important; }
+
+  .mh-1 { max-height: 1rem ! important; }
+  .mh-2 { max-height: 2rem ! important; }
+  .mh-3 { max-height: 3rem ! important; }
+  .mh-4 { max-height: 4rem ! important; }
+  .mh-5 { max-height: 5rem ! important; }
+  .mh-6 { max-height: 6rem ! important; }
+  .mh-7 { max-height: 7rem ! important; }
+  .mh-8 { max-height: 8rem ! important; }
+  .mh-9 { max-height: 9rem ! important; }
+  .mh-10 { max-height: 10rem ! important; }
+  .mh-11 { max-height: 11rem ! important; }
+  .mh-12 { max-height: 12rem ! important; }
+  .mh-13 { max-height: 13rem ! important; }
+  .mh-14 { max-height: 14rem ! important; }
+  .mh-15 { max-height: 15rem ! important; }
+  .mh-16 { max-height: 16rem ! important; }
+  .mh-17 { max-height: 17rem ! important; }
+  .mh-18 { max-height: 18rem ! important; }
+  .mh-19 { max-height: 19rem ! important; }
+  .mh-20 { max-height: 20rem ! important; }
+  .mh-21 { max-height: 21rem ! important; }
+  .mh-22 { max-height: 22rem ! important; }
+  .mh-23 { max-height: 23rem ! important; }
+  .mh-24 { max-height: 24rem ! important; }
+  .mh-25 { max-height: 25rem ! important; }
+  .mh-26 { max-height: 26rem ! important; }
+  .mh-27 { max-height: 27rem ! important; }
+  .mh-28 { max-height: 28rem ! important; }
+  .mh-29 { max-height: 29rem ! important; }
+  .mh-30 { max-height: 30rem ! important; }
+  .mh-31 { max-height: 31rem ! important; }
+  .mh-32 { max-height: 32rem ! important; }
+  .mh-33 { max-height: 33rem ! important; }
+  .mh-34 { max-height: 34rem ! important; }
+  .mh-35 { max-height: 35rem ! important; }
+  .mh-36 { max-height: 36rem ! important; }
+  .mh-37 { max-height: 37rem ! important; }
+  .mh-38 { max-height: 38rem ! important; }
+  .mh-39 { max-height: 39rem ! important; }
+  .mh-40 { max-height: 40rem ! important; }
+  .mh-41 { max-height: 41rem ! important; }
+  .mh-42 { max-height: 42rem ! important; }
+  .mh-43 { max-height: 43rem ! important; }
+  .mh-44 { max-height: 44rem ! important; }
+  .mh-45 { max-height: 45rem ! important; }
+  .mh-46 { max-height: 46rem ! important; }
+  .mh-47 { max-height: 47rem ! important; }
+  .mh-48 { max-height: 48rem ! important; }
+  .mh-49 { max-height: 49rem ! important; }
+  .mh-50 { max-height: 50rem ! important; }
+  .mh-51 { max-height: 51rem ! important; }
+  .mh-52 { max-height: 52rem ! important; }
+  .mh-53 { max-height: 53rem ! important; }
+  .mh-54 { max-height: 54rem ! important; }
+  .mh-55 { max-height: 55rem ! important; }
+  .mh-56 { max-height: 56rem ! important; }
+  .mh-57 { max-height: 57rem ! important; }
+  .mh-58 { max-height: 58rem ! important; }
+  .mh-59 { max-height: 59rem ! important; }
+
+/* varios */
+  .parallax-50 { 
+    height: auto;  
+    margin: 0 auto 50px auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 50px 0; } 
+
+
